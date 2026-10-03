@@ -642,7 +642,7 @@ public final class KeyValue implements Comparable<KeyValue>
       /* Special event keys */
       case "config": return CONFIG;
       case "switch_text": return eventKey("ABC", Event.SWITCH_TEXT, FLAG_SMALLER_FONT);
-      case "switch_numeric": return eventKey("!#1", Event.SWITCH_NUMERIC, FLAG_SMALLER_FONT);
+      case "switch_numeric": return eventKey("123+", Event.SWITCH_NUMERIC, FLAG_SMALLER_FONT);
       case "switch_emoji": return eventKey(0xE001, Event.SWITCH_EMOJI, FLAG_SMALLER_FONT);
       case "switch_back_emoji": return eventKey("ABC", Event.SWITCH_BACK_EMOJI, 0);
       case "switch_clipboard": return eventKey(0xE017, Event.SWITCH_CLIPBOARD, 0);

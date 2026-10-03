@@ -1,0 +1,39 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class juloo.keyboard2.Keyboard2 { <init>(); }
+-keep class juloo.keyboard2.LauncherActivity { <init>(); }
+-keep class juloo.keyboard2.SettingsActivity { <init>(); }
+-keep class juloo.keyboard2.dict.DictionariesActivity { <init>(); }
+-keep class juloo.keyboard2.ClipboardHistoryCheckBox { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class juloo.keyboard2.ClipboardHistoryView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class juloo.keyboard2.ClipboardPinView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class juloo.keyboard2.EmojiGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class juloo.keyboard2.EmojiGroupButtonsBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class juloo.keyboard2.Keyboard2View { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class juloo.keyboard2.dict.DictionaryListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class juloo.keyboard2.prefs.CustomExtraKeysPreference { <init>(...); }
+
+-keep class juloo.keyboard2.prefs.ExtraKeysPreference { <init>(...); }
+
+-keep class juloo.keyboard2.prefs.IntSlideBarPreference { <init>(...); }
+
+-keep class juloo.keyboard2.prefs.LayoutsPreference { <init>(...); }
+
+-keep class juloo.keyboard2.prefs.SlideBarPreference { <init>(...); }
+
+-keep class juloo.keyboard2.suggestions.CandidatesView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keepclassmembers class * { *** launch_dictionaries_activity(android.view.View); }
+
+-keepclassmembers class * { *** launch_imepicker(android.view.View); }
+
+-keepclassmembers class * { *** launch_imesettings(android.view.View); }
+

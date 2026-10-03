@@ -1,0 +1,4 @@
+#Sat Oct 03 16:10:37 IST 2026
+base.0=/home/scholar/android/My-Keyboard/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
