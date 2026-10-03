@@ -1,1 +1,0 @@
-/home/scholar/android/My-Keyboard/build/intermediates/cxx/Release/3b2r5u5a/obj/local/armeabi-v7a

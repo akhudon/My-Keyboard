@@ -1,1 +1,0 @@
-/home/scholar/android/My-Keyboard/vendor/Android.mk
